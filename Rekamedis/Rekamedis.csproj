@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\project12_panggildatabase\MySql.Data.DLL</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,14 +49,179 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="about.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="about.Designer.cs">
+      <DependentUpon>about.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bayar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bayar.Designer.cs">
+      <DependentUpon>bayar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cetak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cetak.Designer.cs">
+      <DependentUpon>cetak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataPasien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataPasien.Designer.cs">
+      <DependentUpon>DataPasien.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="formpasien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formpasien.Designer.cs">
+      <DependentUpon>formpasien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pasienrmedis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pasienrmedis.Designer.cs">
+      <DependentUpon>pasienrmedis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TarifTindakan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TarifTindakan.Designer.cs">
+      <DependentUpon>TarifTindakan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user.Designer.cs">
+      <DependentUpon>user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pilihpoli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pilihpoli.Designer.cs">
+      <DependentUpon>pilihpoli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="polibalita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="polibalita.Designer.cs">
+      <DependentUpon>polibalita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="poligigi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="poligigi.Designer.cs">
+      <DependentUpon>poligigi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="polikia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="polikia.Designer.cs">
+      <DependentUpon>polikia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="polilansia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="polilansia.Designer.cs">
+      <DependentUpon>polilansia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="poliremaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="poliremaja.Designer.cs">
+      <DependentUpon>poliremaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="poliumum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="poliumum.Designer.cs">
+      <DependentUpon>poliumum.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="registrasips.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registrasips.Designer.cs">
+      <DependentUpon>registrasips.cs</DependentUpon>
+    </Compile>
+    <Compile Include="riwayat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="riwayat.Designer.cs">
+      <DependentUpon>riwayat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tmbahpengguna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tmbahpengguna.Designer.cs">
+      <DependentUpon>tmbahpengguna.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="about.resx">
+      <DependentUpon>about.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bayar.resx">
+      <DependentUpon>bayar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cetak.resx">
+      <DependentUpon>cetak.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataPasien.resx">
+      <DependentUpon>DataPasien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formpasien.resx">
+      <DependentUpon>formpasien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pasienrmedis.resx">
+      <DependentUpon>pasienrmedis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TarifTindakan.resx">
+      <DependentUpon>TarifTindakan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user.resx">
+      <DependentUpon>user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pilihpoli.resx">
+      <DependentUpon>pilihpoli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="polibalita.resx">
+      <DependentUpon>polibalita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="poligigi.resx">
+      <DependentUpon>poligigi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="polikia.resx">
+      <DependentUpon>polikia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="polilansia.resx">
+      <DependentUpon>polilansia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="poliremaja.resx">
+      <DependentUpon>poliremaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="poliumum.resx">
+      <DependentUpon>poliumum.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +231,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="registrasips.resx">
+      <DependentUpon>registrasips.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="riwayat.resx">
+      <DependentUpon>riwayat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tmbahpengguna.resx">
+      <DependentUpon>tmbahpengguna.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
